@@ -1,0 +1,147 @@
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+}
+
+.address-item {
+  margin-right: 70px;
+}
+
+.footer-content {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo-wrapper {
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-begin {
+  color: #2196f3;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 9px;
+}
+
+.link-footer-mailto {
+  margin-bottom: 9px;
+}
+
+.link-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  margin-bottom: 9px;
+
+  &:hover,
+  &:active {
+    color: #2196f3;
+  }
+}
+
+.connection-team {
+  margin-right: 93px;
+}
+
+.connection {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.icon-connection {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+
+  &:hover {
+  background-color: #2196f3;
+}
+}
+
+
+.icon-connection:hover > .social-networks {
+  fill: #ffffff;
+}
+
+.subscription {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.subscription-form {
+  display: flex;
+}
+
+.email-form {
+  box-sizing: border-box;
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+  padding-left: 16px;
+  margin-right: 12px;
+}
+
+.button-form {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: #2196f3;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.button-form > .icon-button-form {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  background-image: url(../images/icons/send.png);
+}

@@ -1,0 +1,55 @@
+.list-icon::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+
+
+.icon-satellite::before {
+  background-image: url(../images/icons/Group.png);
+}
+.icon-clock::before {
+  background-image: url(../images/icons/clock\ .png);
+}
+.icon-diagram::before {
+  background-image: url(../images/icons/diagram.png);
+}
+.icon-astronaut::before {
+  background-image: url(../images/icons/astronaut\ .png);
+}
+
+.icon-team {
+  display: inline-flex;
+}
+
+.icon-wrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    background-color: #2196f3;
+  }
+}
+
+.social-networks {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.icon-wrapper:hover > .social-networks {
+  fill: #ffffff;
+}

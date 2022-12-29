@@ -1,0 +1,34 @@
+.hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  color: #ffffff;
+
+  padding: 200px 452px 40px;
+
+  &-section {
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../images/icons/image-hero.jpg");
+
+    text-align: center;
+    height: 600px;
+    margin-bottom: 94px;
+  }
+
+  &-button {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    background-color: #2196f3;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+  }
+}
